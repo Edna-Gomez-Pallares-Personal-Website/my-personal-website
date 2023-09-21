@@ -71,4 +71,64 @@
     transition: all 0.3s ease;
 }
 
+/*Porfolio page*/
+.workshot {
+    display: grid;
+    height:200px;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+h1 {
+    color: rgb(59, 2, 79);
+    display: flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    padding: 15px;
+    border: 10px;
+    margin: 10px;
+    -webkit-text-stroke: 1.6px white;
+}
+
+h2 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    justify-content:center;
+}
+
+.text {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: px;
+    margin: 2px;
+
+}
+
+.square {
+    display: inline-block;
+    justify-content: space-around;
+    padding-inline: 50px;
+    border: 2px solid rgb(59, 2, 79);   
+    margin: 20px;
+    background-color: transparent;
+    vertical-align: middle;
+}
+
+.block {
+    display: inline-block;
+    justify-content: center;
+   align-items: center;
+    padding-inline: 50px;
+    border: 3px solid rgb(59, 2, 79);   
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.595);
+}
+
 
