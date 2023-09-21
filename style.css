@@ -6,6 +6,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+body {
+    background-image: url(/my-personal-website/images/White\ diamond.avif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .navbar {
     background: black;
     height: 80px;
@@ -71,18 +77,35 @@
     transition: all 0.3s ease;
 }
 
-/*Porfolio page*/
+.selfimage {
+height: 400px;
+justify-content:right;
+}
+
+/*Porfolio page images*/
 .workshot {
     display: grid;
-    height:200px;
+    justify-content: left;
+    height:220px;
     width: auto;
     padding: 10px;
     margin: 10px;
 
 }
 
+/*About page images*/
+.workshot2 {
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    height:400px;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
 h1 {
-    color: rgb(59, 2, 79);
+    color: rgb(231, 197, 244);
     display: flex;
     justify-content: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -90,11 +113,11 @@ h1 {
     padding: 15px;
     border: 10px;
     margin: 10px;
-    -webkit-text-stroke: 1.6px white;
+    -webkit-text-stroke: 1.6px rgb(210, 139, 238);
 }
 
 h2 {
-    color: whitesmoke;
+    color: rgb(210, 139, 238);
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -102,10 +125,20 @@ h2 {
     justify-content:center;
 }
 
-.text {
-    color: whitesmoke;
+h3 {
+    color: white;
+    font-size: 21px;
     display: flex;
     justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    justify-content:center; 
+}
+
+.text {
+    color: rgb(133, 60, 143);
+    display: flex;
+    justify-content:left;
     padding: px;
     margin: 2px;
 
@@ -115,7 +148,7 @@ h2 {
     display: inline-block;
     justify-content: space-around;
     padding-inline: 50px;
-    border: 2px solid rgb(59, 2, 79);   
+    border: none;   
     margin: 20px;
     background-color: transparent;
     vertical-align: middle;
@@ -124,11 +157,11 @@ h2 {
 .block {
     display: inline-block;
     justify-content: center;
-   align-items: center;
+    align-items: center;
     padding-inline: 50px;
-    border: 3px solid rgb(59, 2, 79);   
+    border: 2.5px solid rgb(210, 139, 238);   
     margin: 20px;
-    background-color: rgba(0, 0, 0, 0.595);
+    background-color: rgba(213, 187, 223, 0.386);
 }
 
 
