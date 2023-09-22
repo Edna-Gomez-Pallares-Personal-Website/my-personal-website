@@ -152,6 +152,14 @@ h3 {
 
 }
 
+.text2 {
+    color: rgb(133, 60, 143);
+    display: flex;
+    justify-content:left;
+    padding: px;
+    margin: 2px;
+}
+
 .square {
     display: inline-block;
     justify-content: space-around;
@@ -174,4 +182,7 @@ h3 {
 
 .home-title {
     left: 0;
+    justify-content: space-between;
+    align-items:center;
+
 }
