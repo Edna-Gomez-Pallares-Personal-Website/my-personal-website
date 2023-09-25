@@ -1,26 +1,26 @@
-/* Navigation bar*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 body {
-    background-image: url(/my-personal-website/images/White\ diamond.avif);
+    background-image: url(/my-personal-website/images/white-background.avif);
     background-attachment: fixed;
     background-size: cover;
 }
 
+/* Navigation bar*/
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar {
-    background: black;
-    height: 80px;
+    background: url(/my-personal-website/images/black-background.avif);
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    height: 80px;
     top: 0;
+    position: sticky;
     z-index: 999;
 }
 
@@ -28,11 +28,11 @@ body {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 50px;
+    z-index: 1;
 }
 
 #navbar-logo{
@@ -45,9 +45,8 @@ body {
     -moz-text-fill-color: transparent;
     display: flex;
     align-items: center;
-    cursor: pointer;
-    text-decoration: none;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .navbar-menu {
@@ -66,7 +65,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
     padding: 0 1rem;
     height: 100%;
 
@@ -79,15 +77,16 @@ body {
 
 /*Home page images*/
 .selfimage {
-height: 400px;
-/* position:; */
-/* z-index: -1; */
+height: 700px;
+position:fixed;
 right: 0;
+z-index: -1;
 }
 
 .image-container {
 display: flex;
 justify-content: flex-end;
+align-items: first baseline;
 }
 
 
@@ -112,72 +111,67 @@ justify-content: flex-end;
     margin: 10px;
 }
 
+/*Content*/
 h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    -webkit-text-stroke: 1.6px rgb(210, 139, 238);
     color: rgb(231, 197, 244);
     display: flex;
-    justify-content: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
+    justify-content: center;
     padding: 15px;
     border: 10px;
     margin: 10px;
-    -webkit-text-stroke: 1.6px rgb(210, 139, 238);
 }
 
 h2 {
     color: rgb(210, 139, 238);
     display: flex;
+    font-size: 30px;
     justify-content: center;
     padding: 10px;
     margin: 10px;
-    justify-content:center;
 }
 
 h3 {
-    color: white;
-    font-size: 21px;
+    color: white; 
     display: flex;
+    font-size: 24px;
     justify-content: center;
     padding: 10px;
     margin: 10px;
-    justify-content:center; 
 }
 
 .text {
     color: rgb(133, 60, 143);
     display: flex;
-    justify-content:left;
+    justify-content:center;
     padding: px;
     margin: 2px;
 
-}
-
-.text2 {
-    color: rgb(133, 60, 143);
-    display: flex;
-    justify-content:left;
-    padding: px;
-    margin: 2px;
-}
-
-.square {
-    display: inline-block;
-    justify-content: space-around;
-    padding-inline: 50px;
-    border: none;   
-    margin: 20px;
-    background-color: transparent;
-    vertical-align: middle;
 }
 
 .block {
-    display: flex;
+    background-color: rgba(213, 187, 223, 0.386);
+    display: flex; 
     justify-content: center;
     align-items: center;
     padding-inline: 50px;
     border: 2.5px solid rgb(210, 139, 238);   
     margin: 20px;
+}
+
+.home-block {
     background-color: rgba(213, 187, 223, 0.386);
+    display:flex; 
+    justify-content:left;
+    align-items:flex-start;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border: 2.5px solid rgb(210, 139, 238);   
+    margin: 20px;
 }
 
 .home-title {
