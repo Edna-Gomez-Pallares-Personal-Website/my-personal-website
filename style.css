@@ -77,16 +77,16 @@ body {
 
 /*Home page images*/
 .selfimage {
-height: 700px;
-position:fixed;
-right: 0;
-z-index: -1;
+    height: 700px;
+    position:fixed;
+    right: 0;
+    z-index: -1;
 }
 
 .image-container {
-display: flex;
-justify-content: flex-end;
-align-items: first baseline;
+    display: flex;
+    justify-content: flex-end;
+    align-items: first baseline;
 }
 
 
@@ -135,9 +135,9 @@ align-items: first baseline;
     /* ... */
     position: relative;
     cursor: pointer;
-  }
+}
 
-  .overlay {
+.overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -152,25 +152,25 @@ align-items: first baseline;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
   
-  /* hover */
-  .image-gallery li:hover .overlay {
+/* hover */
+.image-gallery li:hover .overlay {
     transform: scale(1);
-  }  
+}  
 
-  .image-gallery::after {
+.image-gallery::after {
     content: "";
     flex-basis: 350px;
-  } 
+} 
   
-    /*Content*/
+/*Content*/
 h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    -webkit-text-stroke: 1.6px rgb(210, 139, 238);
-    color: rgb(231, 197, 244);
+    color: black;
     display: flex;
     font-size: 60px;
+    font-style: italic;
     justify-content: center;
     padding: 15px;
     border: 10px;
@@ -178,7 +178,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(210, 139, 238);
+    color: rgb(166, 44, 214);
     display: flex;
     font-size: 30px;
     justify-content: center;
@@ -187,12 +187,16 @@ h2 {
 }
 
 h3 {
-    color: white; 
+    color: rgb(122, 20, 156); 
     display: flex;
     font-size: 24px;
     justify-content: center;
     padding: 10px;
     margin: 10px;
+}
+
+h4 {
+    color: rgb(210, 139, 238);
 }
 
 .text {
@@ -204,8 +208,17 @@ h3 {
 
 }
 
+.text2 {
+    text-transform: capitalize;
+    font-weight:bolder;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
 .block {
-    background-color: rgba(213, 187, 223, 0.386);
+    background-color: rgba(237, 205, 250, 0.386);
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -242,9 +255,40 @@ h3 {
     
 }
 
-.form-block {
-    background-color: rgba(213, 187, 223, 0.386);
-    border-radius: 5px;
-    color: rgb(132, 16, 145) !important;
+/*Form Details*/
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
+input[type=submit] {
+    background-color: rgb(188, 76, 226);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(122, 20, 156);
+}
+
+.container2 {
+    color: rgb(132, 16, 145) !important;
+    border-radius: 5px;
+    background-color: rgba(237, 205, 250, 0.386);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.success-msg {
+    text-align: center;
+}
