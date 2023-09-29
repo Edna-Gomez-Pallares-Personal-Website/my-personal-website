@@ -236,8 +236,15 @@ h3 {
 
 }
 
-.author {
+.quote-author {
     justify-content:right;
     align-items:end;
     
 }
+
+.form-block {
+    background-color: rgba(213, 187, 223, 0.386);
+    border-radius: 5px;
+    color: rgb(132, 16, 145) !important;
+}
+
