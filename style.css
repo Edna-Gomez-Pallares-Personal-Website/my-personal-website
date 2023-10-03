@@ -203,6 +203,13 @@ h4 {
     color: rgb(210, 139, 238);
 }
 
+.mission {
+    justify-content: left;
+    font-style: italic;
+    text-align: left;
+    font-size: 25px;
+}
+
 .text {
     color: rgb(133, 60, 143);
     display: flex;
@@ -236,7 +243,7 @@ h4 {
     background-color: rgba(213, 187, 223, 0.386);
     display:flex; 
     justify-content:left;
-    align-items:flex-start;
+    align-items:left;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -244,6 +251,7 @@ h4 {
     border: 2.5px solid rgb(210, 139, 238);   
     margin: 20px;
     border-radius: 5px;
+    flex-direction: column;
 }
 
 .home-title {
