@@ -207,7 +207,7 @@ h4 {
     justify-content: left;
     font-style: italic;
     text-align: left;
-    font-size: 25px; !important;
+    font-size: 25px !important;
 }
 
 .text {
@@ -300,7 +300,7 @@ input[type=submit]:hover {
 }
 
 .container2 {
-    color: rgb(132, 16, 145) 
+    color: rgb(132, 16, 145) !important;
     border-radius: 5px;
     background-color: rgba(237, 205, 250, 0.386);
     width:fit-content;
