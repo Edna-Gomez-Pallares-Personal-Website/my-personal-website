@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-    background: url(/my-personal-website/images/black-background.avif);
+    background: url(images/black-background.avif);
     display: flex;
     justify-content: center;
     align-items: center;
